@@ -32,8 +32,8 @@ def load_data(city, month, day):
     # filter by month if applicable
     if month != 'all':
         # use the index of the months list to get the corresponding int
-        months = ['january', 'february', 'march', 'april', 'may', 'june']
-        month = months.index(month) + 1
+        month_list = ['january', 'february', 'march', 'april', 'may', 'june']
+        month = month_list.index(month) + 1
     
         # filter by month to create the new dataframe
         df = df[df['month']  == month]
@@ -104,11 +104,9 @@ def trip_duration_stats(df):
 
     # display total travel time
     s = df['Trip Duration'].sum()
-    print('Total duration : {}\nCount : {}\nAverage duration : {}'.format(s,df['Trip Duration'].count(),df['Trip Duration'].mean()))
+    print(f"Total duration : {s}\nCount : {df['Trip Duration'].count()}\nAverage duration : {df['Trip Duration'].mean()}")
     # display mean travel time
-
-
-    print("\nThis took %s seconds." % (time.time() - start_time))
+    print(f"\nThis took {time.time() - start_time} seconds.")
     print('-'*40)
 
 def user_stats(df):
