@@ -1,17 +1,19 @@
->**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
+## Project Title
+Data Exploration with Pandas on Bikeshare Data
 
-### Date created
-Include the date you created this project and README file.
+### Date Created
+2021-04-07
 
-### Project Title
-Replace the Project Title
+### Project Overview
+For this project, I made use of Python, Pandas library and simple descriptive statistics to explore data related to bikesharing for three major cities in the USA - Chicago, New York City, and Washington. 
 
-### Description
-Describe what your project is about and what it does
-
-### Files used
-Include the files used
+### Data Files Used
+* chicago.csv - dataset containing bikeshare info for the city of Chicago, provided by Udacity.
+* new_york_city.csv - dataset containing bikeshare info for the city of New York, provided by Udacity.
+* washington.csv - dataset containing bikeshare info for the city of Washington, provided by Udacity. *Note:* Does not include 'Gender' and 'Birth Year' data.
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+* [Udacity](https://www.udacity.com/) -  Data courses were really helpful.
+* [WordPress Support](https://wordpress.com/support/markdown-quick-reference/) - Very helpful with Markdown
+* [Real Python](https://realpython.com/) - Excellent Python/Pandas Tutorials
+* [Microsoft Visual Studio Docs](https://docs.microsoft.com/en-us/visualstudio/python/overview-of-python-tools-for-visual-studio?view=vs-2019) - Great help with Visual Studio Code editor
